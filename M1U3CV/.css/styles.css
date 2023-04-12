@@ -1,5 +1,16 @@
-.destacado{
-     color: yellowgreen;
-     font-weight: bolder;
-     font-style: italic;
-}
+.destacados {
+    background-color: rgb(237, 11, 83);
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px;
+    color: #180a0cad;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
+     }
+p{
+    column-count: 1;
+    column-gap: 20px;
+ }
+
