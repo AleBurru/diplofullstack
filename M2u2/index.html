@@ -6,18 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex-box</title>
     <link rel="stylesheet" href="index.css">
-    <div id="contenedor-padre">
-        <div class="elemento-1"></div>
-        <div class="elemento-2"></div>
-        <div class="elemento-3"></div>
-        
-    </div>
-</head>
-<body>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 300px;
+            align-items: end;
+            margin: auto;
+        }
+        .item1{
+            width: 100px;
+            height: 100px;
+            border: 3px;
+            font-size: 20px;
+            text-align: center;
+
+        }
+        .item2{
+            width: 100px;
+            height: 100px;
+            border: 3px;
+            font-size: 20px;
+            text-align: center;
+
+
+        }
+        .item3{
+            
+            width: 100px;
+            height: 100px;
+            border: 3px;
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+    </style>
+
     
 
     
-      
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+
+
+
+    </div>
+        
+    
+    
+    
+
+  
+    
+    
     
 </body>
 </html>

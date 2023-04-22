@@ -1,11 +1,22 @@
-.contenedor{
-    background-color: chartreuse;
-    display: flex;
+
+.container{
+    background-color: aquamarine;
+    border: 3px solid black;
+
 }
-.item{
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    font-size: 15px;
+.item1{
+    background-color: rgb(206, 15, 15);
+
 }
+.item2{
+    background-color: green;
+    
+}
+.item3{
+    background-color: blue;
+}
+  
+
+  
+
+
