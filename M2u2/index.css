@@ -1,23 +1,125 @@
 
-.container{
-    background-color: aquamarine;
+.container1{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(157, 224, 227);
     border: 3px solid black;
 
 
 }
 .item1{
+
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
     background-color: rgb(206, 15, 15);
 
 }
 .item2{
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
     background-color: green;
     
 }
 .item3{
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
     background-color: blue;
 }
   
 
+.container2{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    align-items: end;
+    background-color: rgb(157, 224, 227);
+    border: 3px solid black;
+
+
+}
+.item1{
+
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(206, 15, 15);
+
+}
+.item2{
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
+    background-color: green;
+    
+}
+.item3{
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
+    background-color: blue;
+}
   
+.container3{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    flex-direction: row;
+    
+    
+
+
+}
+.item1{
+
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(206, 15, 15);
+
+}
+.item2{
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
+    background-color: green;
+    
+}
+.item3{
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    font-size: 20px;
+    text-align: center;
+    background-color: blue;
+}
+  
+  
+ 
 
 
