@@ -82,10 +82,12 @@
   
 .container3{
     display: flex;
-    width: 200px;
-    height: 200px;
-    background-color: aquamarine;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(157, 224, 227);
     flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
     
     
 
