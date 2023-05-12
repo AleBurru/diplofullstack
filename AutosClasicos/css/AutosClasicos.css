@@ -1,23 +1,4 @@
-@media only screen and (max-width: 300px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-        margin: 10px 0;
-    }
-
-}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -65,3 +46,49 @@ main {
 footer {
     background-color: rgb(216, 97, 157);
 }
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 1024px) { 
+    nav {
+        margin-right: 50px;
+    }
+/* estilos para tabletas */
+ }
+ @media only screen and (min-width:768px) and (max-width: 1023px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+ }
+/* Estilos para celulares */
+ @media only screen and (max-width:767px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    nav a {
+        font-size: 1.5em;
+    }
+    main {
+        padding: 10px;
+    }
+ }
