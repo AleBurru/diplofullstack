@@ -50,7 +50,7 @@ header input {
 
 nav {
     width: 100%;
-    background-color: black;
+    background-color: rgb(44, 40, 40);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +60,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -98,7 +99,7 @@ footer {
 }
 
 nav ul li a.activo {
-    background-color: rgb(179, 69, 69);
+    background-color: rgb(223, 71, 94);
 }
 
 .holder {
@@ -164,10 +165,109 @@ h2 {
     margin: 12px 0;
 }
 
+/*Fin Home*/
+/*Inicio Nosotros*/
+.historia p {
+    font-size: 20px;
+}
+
+.profesionales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profesional {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 24%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: rgb(222, 130, 140);
+}
+
+.profesional img {
+    border-radius: 40%;
+    max-width: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.profesional h5,
+.profesional h6 {
+    margin: 0;
+    font-weight: normal;
+    color: white;
+}
+
+.profesional h5 {
+    font-size: 20pix;
+    margin-top: 5px;
+}
+
+.profesional h6 {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.profesional p {
+    color: rgb(61, 59, 60);
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+/*Fin Nosotros*/
+/*Inicio Restauraciones*/
+.Restauraciones {
+    border: 1px solid #cb6363;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.Restauraciones h4 {
+    font-size: 20px;
+    font-style: italic;
+    border-bottom: 10px solid #a01040;
+    padding-bottom: 10px;
+}
+
+.Restauraciones img {
+    border-radius: 13px;
+
+
+}
+
+/*Fin Restauraciones*/
+
+/*Inicio Galeria*/
+.Galeria img {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #d66767;
+    padding: o.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+
+}
+
+
+
+/*Fin Galeria*/
+
+
+
 
 /* Estilos para pantallas grandes */
 @media only screen and (min-width: 1024px) {
-    
+
 
     /* estilos para tabletas */
 }
