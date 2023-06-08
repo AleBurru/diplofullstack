@@ -292,10 +292,12 @@ h2 {
     font-size: 14px;
     padding: 6px 10px;
 }
+
 .formulario textarea {
     resize: none;
     height: 150px;
 }
+
 .formulario form input [type="submit"] {
     background: #dc9a9a;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -303,9 +305,7 @@ h2 {
     font-size: 16px;
     padding: 6px 20px;
     width: auto;
-    position: relative;
-    left: 5rem ;
-    cursor: pointer;
+
 }
 
 
@@ -314,14 +314,11 @@ h2 {
 
 
 
-/* Estilos para pantallas grandes */
-@media only screen and (min-width: 1024px) {
+@media (max-widt: 768px) {
 
 
     /* estilos para tabletas */
-}
 
-@media only screen and (max-width: 1023px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -364,7 +361,7 @@ h2 {
     }
 
     nav a {
-        font-size: 1,5rem;
+        font-size: 1, 5rem;
 
     }
 
