@@ -256,6 +256,10 @@ h2 {
     margin-bottom: 20px;
     margin-right: 2%;
 }
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*Fin Galeria*/
 /*Inicio Contacto*/
