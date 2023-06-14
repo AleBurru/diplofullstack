@@ -116,15 +116,6 @@ nav ul li a.activo {
     background-color: rgb(194, 74, 74);
 }
 
-.holder {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-h2 {
-    color: rgb(50, 15, 223);
-    font-weight: 400;
-}
 
 /*Stylos para Home*/
 .bienvenidos {
@@ -132,10 +123,12 @@ h2 {
     padding-right: 10px;
     padding-left: 10px;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 .testimonios {
     width: 25%;
+    padding: 16px;
 }
 
 .columnas {
@@ -147,9 +140,6 @@ h2 {
     font-size: 20px;
 }
 
-.testimonios {
-    padding: 16px;
-}
 
 .testimonios .cita {
     font-weight: bold;
@@ -200,7 +190,6 @@ h2 {
 }
 
 .profesional h5 {
-    font-size: 20pix;
     margin-top: 5px;
 }
 
@@ -256,6 +245,7 @@ h2 {
     margin-bottom: 20px;
     margin-right: 2%;
 }
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -318,7 +308,7 @@ h2 {
 
 
 
-@media (max-widt: 768px) {
+@media (max-width*: 768px) {
 
 
     /* estilos para tabletas */
