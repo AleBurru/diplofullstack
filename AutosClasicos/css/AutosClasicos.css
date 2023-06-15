@@ -308,31 +308,37 @@ nav ul li a.activo {
 
 
 
-@media (max-width*: 768px) {
+/* estilos para tabletas */
+@media only screen and (min-width: 768px) {
 
 
-    /* estilos para tabletas */
+
 
     header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
     nav {
-        margin-right: 0;
-        margin-bottom: 20px;
+        margin-right: 20px;
+
     }
 
     nav ul {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
+        flex-direction: row;
     }
 
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
+    nav ul li {
+        margin-right: 10px;
+    }
+    .bienvenidos {
+        width: 60%;
+    }
+    .testimonios {
+        width: 40%;
+    }
+    .columnas {
+        flex-direction: row;
     }
 }
 
@@ -354,11 +360,21 @@ nav ul li a.activo {
         margin-bottom: 10px;
     }
 
-    nav a {
-        font-size: 1, 5rem;
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
 
     }
 
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
     main {
         padding: 10px;
     }
